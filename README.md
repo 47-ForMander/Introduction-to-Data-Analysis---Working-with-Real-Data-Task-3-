@@ -1,6 +1,6 @@
-======================================
+
          SALES DATA REPORT
-======================================
+         
 Data Quality:
 - Handled 0 missing values.
 
@@ -12,4 +12,3 @@ Key Metrics:
 Product Performance:
 - Best-Selling Product (Qty):  Laptop (136 units)
 - Highest Revenue Product:     Laptop
-======================================
