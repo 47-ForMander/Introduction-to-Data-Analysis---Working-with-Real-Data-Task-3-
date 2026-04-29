@@ -1,0 +1,9 @@
+1. Use pandas to load and analyze : The entire script relies on the pandas DataFrame structure. pd.read_csv() was used for loading, and built-in methods like .groupby() and .mean() were used for analysis.
+
+2. Handle missing values appropriately : Implemented a conditional block that checks isnull().sum(). It programmatically targets numeric columns to .fillna(0) and object/string columns to .fillna('Unknown') to prevent script crashes and logic errors.
+
+3. Calculate at least 3 metrics : Calculated five distinct metrics: Total Sales Revenue, Total Orders, Average Transaction Value, Best-Selling Product by Volume, and Highest Revenue Product.
+
+4. Create a clean, formatted report : Used formatted f-strings to align text, add commas to large numbers (e.g., 12,365,048.00 instead of 12365048), limit floats to two decimal places for currency, and framed it with clear header boundaries.
+
+5. Add comments explaining steps : The provided Python code included inline comments (# 1. Load the dataset, # Metric 1: Total Sales, etc.) explaining the purpose of every functional block.
